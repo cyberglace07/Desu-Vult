@@ -3658,10 +3658,15 @@ table td + td {
           </table>
         </div>
       </li>
-      <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_4">
-        <label class="form-label form-label-top" id="label_4" for="input_4"> Player of the night </label>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_4">
+        <label class="form-label form-label-top" id="label_4" for="input_4">
+          Player of the night
+          <span class="form-required">
+            *
+          </span>
+        </label>
         <div id="cid_4" class="form-input-wide jf-required">
-          <select class="form-dropdown" id="input_4" name="q4_playerOf" style="width:280px;" data-component="dropdown">
+          <select class="form-dropdown validate[required]" id="input_4" name="q4_playerOf" style="width:280px;" data-component="dropdown" required="">
             <option value="">  </option>
             <option value="cyberglace07"> cyberglace07 </option>
             <option value="maleouf"> maleouf </option>
